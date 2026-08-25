@@ -18,7 +18,10 @@
       <a href="#about">About</a>
       <a href="#stack">Stack</a>
       <a href="#work">Work</a>
+      <a href="#certifications">Certs</a>
+      <a href="#coding">Coding</a>
       <a href="#timeline">Timeline</a>
+      <a href="#goals">Goals</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -52,12 +55,16 @@
         <p>I think in <b>checklists, checkpoints and metrics</b> — probably because most of what I do lately is operational. At Ahead, I'm not brought in as a subject expert; I'm there to build the business: interviewing hires, structuring programs, and figuring out which single metric I can own end-to-end.</p>
         <p>Outside of that, I'm quietly building a <b>data analyst</b> toolkit from the ground up — Python, SQL, Excel, real datasets — with <b>machine learning</b> as the next stop after that.</p>
         <p>Everything on this page is something I actually built, ran, or shipped — not a syllabus.</p>
+        <p>When I'm not doing any of that: exploring new technologies, personal coding projects, reading, writing — I'm a bit of an English enthusiast too.</p>
       </div>
       <div class="about-card reveal">
         <div class="line"><span>Institute</span><span>MAIT, GGSIPU</span></div>
         <div class="line"><span>Program</span><span>B.Tech, IT</span></div>
         <div class="line"><span>Batch</span><span>2025 – 2029</span></div>
+        <div class="line"><span>Class XII, CBSE</span><span>89% · 2024</span></div>
+        <div class="line"><span>Class X, CBSE</span><span>96.4% · 2022</span></div>
         <div class="line"><span>Society</span><span>Dhan (Finance) — Event Mgmt Head</span></div>
+        <div class="line"><span>Languages</span><span>English (Proficient) · Hindi (Native)</span></div>
         <div class="line"><span>Focus</span><span>Ops · Data · ML</span></div>
         <div class="line"><span>Status</span><span style="color:var(--teal)">Building</span></div>
       </div>
@@ -116,8 +123,11 @@
         <div class="ctag">Solo build · PWA</div>
         <h3>Bunker</h3>
         <p>A frontend-only attendance tracker — no backend, all client-side. Tell it your target attendance %, and it tells you exactly how many classes you can afford to skip. Installable as a PWA via a service worker + manifest. Now scans a timetable to auto-extract subjects and days.</p>
-        <div class="tags"><span>HTML/CSS/JS</span><span>Service Worker</span><span>Privacy-first</span></div>
-        <a class="link" href="https://hra-ra.github.io/attendance.tracker/#" target="_blank" rel="noopener">Live site →</a>
+        <div class="tags"><span>HTML/CSS/JS</span><span>Service Worker</span><span>Privacy-first</span><span>API integration</span></div>
+        <div style="display:flex; gap:16px;">
+          <a class="link" href="https://hra-ra.github.io/attendance.tracker/#" target="_blank" rel="noopener">Live site →</a>
+          <a class="link" href="#">GitHub →</a>
+        </div>
       </div>
 
       <div class="card reveal">
@@ -125,28 +135,88 @@
         <h3>SolveDesk</h3>
         <p>Built for the Future Ready Ops Innovation Challenge. OCRs paper leave applications and uses OR-Tools CP-SAT to auto-assign substitute teachers — turning a manual admin headache into a solved scheduling problem.</p>
         <div class="tags"><span>React / TS</span><span>FastAPI</span><span>Supabase</span><span>Gemini API</span></div>
+        <div style="display:flex; gap:16px;">
+          <a class="link" href="#">GitHub →</a>
+          <a class="link" href="#">Live App →</a>
+        </div>
       </div>
 
       <div class="card reveal">
         <div class="ctag">Hackathon · Team DataNiti</div>
         <h3>SchemeSetu</h3>
-        <p>Built at the UIDAI Data Hackathon 2026. A project focused on connecting people to the government schemes they're eligible for, built under real data-hackathon time pressure with a 5-person team.</p>
-        <div class="tags"><span>Data</span><span>Team project</span></div>
+        <p>Built at the UIDAI Data Hackathon 2026 (organized by UIDAI, NIC &amp; MeitY, Govt. of India) with a 5-person team. Cleaned and preprocessed large-scale, real-world Aadhaar enrolment and update datasets with Pandas, then ran univariate, bivariate, and trivariate analysis — using PCA and K-Means clustering to segment districts by demographic and enrolment behavior.</p>
+        <div class="tags"><span>Python</span><span>Pandas</span><span>scikit-learn</span><span>PCA</span><span>K-Means</span><span>Matplotlib</span></div>
+        <div style="display:flex; gap:16px;">
+          <a class="link" href="#">GitHub →</a>
+          <a class="link" href="#">Live App →</a>
+        </div>
       </div>
 
     </div>
   </div>
 </section>
 
+<section id="certifications">
+  <div class="section-inner">
+    <div class="eyebrow">04 / Certifications</div>
+    <h2 class="sectitle">Learning, made official</h2>
+    <div class="strip">
+      <div class="achieve reveal">
+        <div class="a-icon">[ CERT ]</div>
+        <h5>Google Data Analytics</h5>
+        <p>Professional Certificate track — Coursera. In progress.</p>
+      </div>
+      <div class="achieve reveal">
+        <div class="a-icon">[ CERT ]</div>
+        <h5>NPTEL</h5>
+        <p>Placeholder — add course name and completion details here.</p>
+      </div>
+      <div class="achieve reveal">
+        <div class="a-icon">[ CERT ]</div>
+        <h5>Udemy</h5>
+        <p>Placeholder — add course name and completion details here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coding">
+  <div class="section-inner">
+    <div class="eyebrow">05 / Coding Profiles</div>
+    <h2 class="sectitle">Where the practice lives</h2>
+    <div class="stack-icons">
+      <div class="icon-tile mono-badge"><span style="font-size:15px">LC</span><span>LeetCode</span></div>
+      <div class="icon-tile mono-badge"><span style="font-size:15px">HR</span><span>HackerRank</span></div>
+      <div class="icon-tile mono-badge"><span style="font-size:15px">CC</span><span>CodeChef</span></div>
+      <div class="icon-tile mono-badge"><span style="font-size:15px">GfG</span><span>GeeksforGeeks</span></div>
+    </div>
+    <p style="margin-top:22px; color:var(--slate); font-family:'IBM Plex Mono', monospace; font-size:12.5px;">
+      Profile links go here — add your LeetCode / HackerRank / CodeChef / GeeksforGeeks handles.
+    </p>
+    <div class="ctarow" style="margin-top:16px;">
+      <a class="btn" href="#">LeetCode →</a>
+      <a class="btn" href="#">HackerRank →</a>
+      <a class="btn" href="#">CodeChef →</a>
+      <a class="btn" href="#">GeeksforGeeks →</a>
+    </div>
+    <div class="about-card reveal" style="margin-top:26px; max-width:420px;">
+      <div class="line"><span>LeetCode SQL 50</span><span style="color:var(--teal)">Cleared</span></div>
+      <div class="line"><span>Problems solved</span><span>Add count</span></div>
+      <div class="line"><span>Rating</span><span>Add rating</span></div>
+      <div class="line"><span>Badges</span><span>Add badges</span></div>
+    </div>
+  </div>
+</section>
+
 <section id="timeline">
   <div class="section-inner">
-    <div class="eyebrow">04 / Timeline</div>
+    <div class="eyebrow">06 / Timeline</div>
     <h2 class="sectitle">How I got here</h2>
     <div class="timeline">
       <div class="titem active reveal">
-        <div class="tdate">Ongoing</div>
+        <div class="tdate">July 2026 – Present</div>
         <h4>Founder's Office <span class="role-badge">CURRENT</span></h4>
-        <p>Ahead — an edtech startup building free + premium exam prep for IPU students. Brought in as a business-builder, not a subject expert: teaching, running business ops, sitting on hiring panels, and working to own a metric end-to-end.</p>
+        <p>Ahead — an edtech startup building free + premium exam prep for IPU students. Brought in as a business-builder, not a subject expert: teaching, running business ops, sitting on hiring panels (served as a panelist in the startup's first-ever hiring drive, helping shape its earliest hiring standards from scratch), and working to own a metric end-to-end in a resource-constrained, fast-moving environment.</p>
       </div>
       <div class="titem reveal">
         <div class="tdate">Ongoing</div>
@@ -154,9 +224,9 @@
         <p>Dhan, the finance society at MAIT — planning and running society events alongside coursework.</p>
       </div>
       <div class="titem reveal">
-        <div class="tdate">Concluded — 3 months</div>
-        <h4>Math Tutoring Internship</h4>
-        <p>Taught Applied Mathematics 2 to roughly 200 first-year students at a different edtech startup, with one-on-one doubt-clearing concentrated around exam season.</p>
+        <div class="tdate">May 2026 – Aug 2026</div>
+        <h4>Subject Matter Expert Intern — Nexera</h4>
+        <p>Taught Applied Mathematics 2 to roughly 200+ first-year students at this edtech startup, with one-on-one doubt-clearing concentrated around exam season.</p>
       </div>
       <div class="titem reveal">
         <div class="tdate">Next up</div>
@@ -169,7 +239,7 @@
 
 <section>
   <div class="section-inner">
-    <div class="eyebrow">05 / Signals</div>
+    <div class="eyebrow">07 / Signals</div>
     <div class="strip">
       <div class="achieve reveal">
         <div class="a-icon">[ OSS ]</div>
@@ -195,9 +265,29 @@
   </div>
 </section>
 
+<section id="goals">
+  <div class="section-inner">
+    <div class="eyebrow">08 / Future Goals</div>
+    <h2 class="sectitle">Where this is headed</h2>
+    <div class="about-grid">
+      <div>
+        <p>Short term, I'm turning the ops-and-teaching grind at Ahead into a repeatable playbook — own one metric end-to-end, well enough that it doesn't need me watching it every day.</p>
+        <p>Medium term, I'm finishing the <b>data analyst</b> track (Python, SQL, Excel, Pandas) and using it on real, messy datasets rather than tutorials — the UIDAI hackathon was the first real test of that.</p>
+        <p>Next stop after that is <b>machine learning</b>: moving from descriptive analysis into predictive models, building on the foundation already in place.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="line"><span>Now</span><span>Ops · Teaching · Data</span></div>
+        <div class="line"><span>Next</span><span>Machine Learning</span></div>
+        <div class="line"><span>Target domain</span><span>Data Analytics / ML</span></div>
+        <div class="line"><span>Roadmap</span><span>Add specific milestones</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <div class="section-inner">
-    <div class="eyebrow" style="justify-content:center;">06 / Contact</div>
+    <div class="eyebrow" style="justify-content:center;">09 / Contact</div>
     <h2>Let's build something.</h2>
     <p>Open to internships, collaborations, and anything that lets me own a real outcome — data, ops, or otherwise.</p>
     <div class="ctarow">
