@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubhra — Systems Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="statusbar">
+  <div class="brand"><span class="dot"></span>SHUBHRA<span class="mono" style="color:var(--slate)">.sys</span></div>
+  <div class="navlinks">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#work">Work</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="clock" id="clock">—</div>
+</div>
+
+<section class="hero">
+  <div class="section-inner">
+    <div class="kicker" id="kicker"></div>
+    <h1>B.Tech IT student, building the <span class="accent">operator's</span> mindset.</h1>
+    <p class="role">Second-year at <b>Maharaja Agrasen Institute of Technology</b> (GGSIPU) — currently in the <b>founder's office at Ahead</b>, an edtech startup for IPU exam prep, while building toward data analytics and machine learning on the side.</p>
+    <div class="ctarow">
+      <a class="btn primary" href="#work">View the work ↓</a>
+      <a class="btn" href="mailto:hrashub99@gmail.com">hrashub99@gmail.com</a>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+      <div class="tile"><div class="tlabel">CGPA</div><div class="tvalue">9.2<span class="unit">/10</span></div><div class="tsub">Sem 1: 9.41 · Sem 2: 9.09</div></div>
+      <div class="tile"><div class="tlabel">Current role</div><div class="tvalue" style="font-size:1.1rem">Founder's Office</div><div class="tsub">@ Ahead (edtech)</div></div>
+      <div class="tile"><div class="tlabel">Open source</div><div class="tvalue">GSSoC<span class="unit">'26</span></div><div class="tsub">Contributor badges</div></div>
+      <div class="tile"><div class="tlabel">Shipped</div><div class="tvalue">1<span class="unit">PWA</span></div><div class="tsub">Bunker — attendance tracker</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-inner">
+    <div class="eyebrow">01 / About</div>
+    <div class="about-grid">
+      <div>
+        <p>I think in <b>checklists, checkpoints and metrics</b> — probably because most of what I do lately is operational. At Ahead, I'm not brought in as a subject expert; I'm there to build the business: interviewing hires, structuring programs, and figuring out which single metric I can own end-to-end.</p>
+        <p>Outside of that, I'm quietly building a <b>data analyst</b> toolkit from the ground up — Python, SQL, Excel, real datasets — with <b>machine learning</b> as the next stop after that.</p>
+        <p>Everything on this page is something I actually built, ran, or shipped — not a syllabus.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="line"><span>Institute</span><span>MAIT, GGSIPU</span></div>
+        <div class="line"><span>Program</span><span>B.Tech, IT</span></div>
+        <div class="line"><span>Batch</span><span>2025 – 2029</span></div>
+        <div class="line"><span>Society</span><span>Dhan (Finance) — Event Mgmt Head</span></div>
+        <div class="line"><span>Focus</span><span>Ops · Data · ML</span></div>
+        <div class="line"><span>Status</span><span style="color:var(--teal)">Building</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="section-inner">
+    <div class="eyebrow">02 / Stack</div>
+    <h2 class="sectitle">Tools I actually reach for</h2>
+
+    <div class="stack-group reveal">
+      <h4>Languages & Web</h4>
+      <div class="stack-icons">
+        <div class="icon-tile"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+        <div class="icon-tile"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+        <div class="icon-tile"><i class="devicon-c-plain colored"></i><span>C</span></div>
+        <div class="icon-tile"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+        <div class="icon-tile"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+        <div class="icon-tile"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
+        <div class="icon-tile"><i class="devicon-react-original colored"></i><span>React</span></div>
+      </div>
+    </div>
+
+    <div class="stack-group reveal">
+      <h4>Data & Analysis</h4>
+      <div class="stack-icons">
+        <div class="icon-tile"><i class="devicon-numpy-original colored"></i><span>NumPy</span></div>
+        <div class="icon-tile"><i class="devicon-pandas-original colored"></i><span>Pandas</span></div>
+        <div class="icon-tile"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+        <div class="icon-tile mono-badge"><span style="font-size:20px">X</span><span>Excel</span></div>
+      </div>
+    </div>
+
+    <div class="stack-group reveal">
+      <h4>Tools & Infra</h4>
+      <div class="stack-icons">
+        <div class="icon-tile"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+        <div class="icon-tile"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+        <div class="icon-tile"><i class="devicon-fastapi-plain colored"></i><span>FastAPI</span></div>
+        <div class="icon-tile mono-badge"><span style="font-size:15px">◎</span><span>Supabase</span></div>
+        <div class="icon-tile mono-badge"><span style="font-size:15px">✦</span><span>Gemini API</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="section-inner">
+    <div class="eyebrow">03 / Work</div>
+    <h2 class="sectitle">Things I've shipped</h2>
+    <div class="work-grid">
+
+      <div class="card reveal">
+        <div class="ctag">Solo build · PWA</div>
+        <h3>Bunker</h3>
+        <p>A frontend-only attendance tracker — no backend, all client-side. Tell it your target attendance %, and it tells you exactly how many classes you can afford to skip. Installable as a PWA via a service worker + manifest. Now scans a timetable to auto-extract subjects and days.</p>
+        <div class="tags"><span>HTML/CSS/JS</span><span>Service Worker</span><span>Privacy-first</span></div>
+        <a class="link" href="https://hra-ra.github.io/attendance.tracker/#" target="_blank" rel="noopener">Live site →</a>
+      </div>
+
+      <div class="card reveal">
+        <div class="ctag">Hackathon · Team code-xo</div>
+        <h3>SolveDesk</h3>
+        <p>Built for the Future Ready Ops Innovation Challenge. OCRs paper leave applications and uses OR-Tools CP-SAT to auto-assign substitute teachers — turning a manual admin headache into a solved scheduling problem.</p>
+        <div class="tags"><span>React / TS</span><span>FastAPI</span><span>Supabase</span><span>Gemini API</span></div>
+      </div>
+
+      <div class="card reveal">
+        <div class="ctag">Hackathon · Team DataNiti</div>
+        <h3>SchemeSetu</h3>
+        <p>Built at the UIDAI Data Hackathon 2026. A project focused on connecting people to the government schemes they're eligible for, built under real data-hackathon time pressure with a 5-person team.</p>
+        <div class="tags"><span>Data</span><span>Team project</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="section-inner">
+    <div class="eyebrow">04 / Timeline</div>
+    <h2 class="sectitle">How I got here</h2>
+    <div class="timeline">
+      <div class="titem active reveal">
+        <div class="tdate">Ongoing</div>
+        <h4>Founder's Office <span class="role-badge">CURRENT</span></h4>
+        <p>Ahead — an edtech startup building free + premium exam prep for IPU students. Brought in as a business-builder, not a subject expert: teaching, running business ops, sitting on hiring panels, and working to own a metric end-to-end.</p>
+      </div>
+      <div class="titem reveal">
+        <div class="tdate">Ongoing</div>
+        <h4>Event Management Head</h4>
+        <p>Dhan, the finance society at MAIT — planning and running society events alongside coursework.</p>
+      </div>
+      <div class="titem reveal">
+        <div class="tdate">Concluded — 3 months</div>
+        <h4>Math Tutoring Internship</h4>
+        <p>Taught Applied Mathematics 2 to roughly 200 first-year students at a different edtech startup, with one-on-one doubt-clearing concentrated around exam season.</p>
+      </div>
+      <div class="titem reveal">
+        <div class="tdate">Next up</div>
+        <h4>Machine Learning</h4>
+        <p>The stop after the data analyst track — moving from descriptive analysis into ML/AI, building on the Python, Pandas, and SQL foundation already in place.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="eyebrow">05 / Signals</div>
+    <div class="strip">
+      <div class="achieve reveal">
+        <div class="a-icon">[ OSS ]</div>
+        <h5>GSSoC 2026</h5>
+        <p>Open-source contributor, badges earned across the program.</p>
+      </div>
+      <div class="achieve reveal">
+        <div class="a-icon">[ DATA ]</div>
+        <h5>LeetCode SQL 50</h5>
+        <p>Full problem set cleared — joins, aggregations, strong runtime rankings.</p>
+      </div>
+      <div class="achieve reveal">
+        <div class="a-icon">[ HACK ]</div>
+        <h5>UIDAI Data Hackathon 2026</h5>
+        <p>Team DataNiti — built SchemeSetu under time pressure.</p>
+      </div>
+      <div class="achieve reveal">
+        <div class="a-icon">[ CERT ]</div>
+        <h5>Google Data Analytics</h5>
+        <p>Professional Certificate track, in progress on Coursera.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-inner">
+    <div class="eyebrow" style="justify-content:center;">06 / Contact</div>
+    <h2>Let's build something.</h2>
+    <p>Open to internships, collaborations, and anything that lets me own a real outcome — data, ops, or otherwise.</p>
+    <div class="ctarow">
+      <a class="btn primary" href="mailto:hrashub99@gmail.com">Email me →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 Shubhra · MAIT, Department of Information Technology</div>
+  <div class="footlinks">
+    <a href="mailto:hrashub99@gmail.com">Email</a>
+    <a href="#" onclick="return false;">GitHub</a>
+    <a href="#" onclick="return false;">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
